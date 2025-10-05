@@ -56,12 +56,11 @@ public class HeapSort {
 
         System.out.println("Original Array: " + Arrays.toString(testArray));
 
-        long startTime = System.nanoTime();
+        
         sort(testArray);
-        long endTime = System.nanoTime();
+       
 
         System.out.println("Sorted Array:   " + Arrays.toString(testArray));
-        System.out.println("\n--- Performance ---");
-        System.out.println("Execution Time: " + (endTime - startTime) / 1_000_000.0 + " ms");
+        
     }
 }
